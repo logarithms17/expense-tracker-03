@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-black;
+    @apply text-white;
+
+  }
+
+  h1{
+    @apply md:text-6xl font-normal sm:text-4xl 
+  }
+
+  .description{
+    @apply text-neutral-500
+  }
+
+  .profileSettingsCurrencyBox{
+    @apply h-full py-3 rounded-xl w-full 
+  }
+
+  /* ---- BUTTON STYLES ----- */
+  .secondaryButton {
+    @apply bg-black text-white py-3 px-10 rounded-3xl font-normal border-[1px] border-neutral-500 hover:bg-neutral-900
+  }
+
+  .dashboardSecondaryButton {
+    @apply bg-black text-white py-3 px-10 rounded-3xl font-normal border-[1px] border-neutral-500 hover:bg-neutral-900
+  }
+
+  .logoutSecondaryButton {
+    @apply bg-neutral-800 text-white py-3 px-10 rounded-3xl font-normal hover:bg-neutral-700
+  }
+
+     .tableSecondaryButton {
+       @apply bg-neutral-950 flex gap-3 items-center text-white sm:px-3 py-3 lg:px-10 rounded-3xl font-normal hover:bg-neutral-800
+     }
+      .tablePrimaryButton {
+        @apply bg-green-400 flex gap-3 items-center text-black sm:px-3 py-3 lg:px-10 rounded-3xl font-normal hover:bg-green-300
+      }
+
+  /* ---- WIDGET ---- */
+  
+  .heroImageWidget {
+    @apply absolute text-black bg-white md:bottom-[130px] md:left-[-30px] lg:bottom-[130px] lg:-left-16 rounded-3xl flex items-center sm:px-7 sm:py-4 md:p-7 sm:bottom-[60px] sm:left-[25px]
+  }
+
+  .dashboardWidget {
+    @apply -left-16 bg-neutral-900 rounded-3xl flex items-center p-7 w-full
+  }
+
+    .custom-input-icon {
+      @apply [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert [&::-webkit-calendar-picker-indicator]:sepia [&::-webkit-calendar-picker-indicator]:saturate-0 [&::-webkit-calendar-picker-indicator]:hue-rotate-[180deg] [&::-webkit-calendar-picker-indicator]:brightness-100 [&::-webkit-calendar-picker-indicator]:contrast-100;
+    }
+}

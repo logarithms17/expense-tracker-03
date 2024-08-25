@@ -44,7 +44,7 @@
   /* ---- WIDGET ---- */
   
   .heroImageWidget {
-    @apply absolute text-black bg-white md:bottom-[130px] md:left-[-30px] lg:bottom-[130px] lg:-left-16 rounded-3xl flex items-center sm:px-7 sm:py-4 md:p-7 sm:bottom-[60px] sm:left-[25px]
+    @apply absolute text-black bg-white md:bottom-[130px] md:left-[-30px] lg:bottom-[130px] lg:-left-16 rounded-3xl flex items-center sm:px-7 sm:py-4 md:p-7 sm:bottom-[60px] sm:-left-[22px]
   }
 
   .dashboardWidget {

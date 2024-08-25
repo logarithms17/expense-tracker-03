@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/event-tracker-03/static/css/main.0fb38476.css",
+    "main.js": "/event-tracker-03/static/js/main.f399fac6.js",
+    "static/js/453.73341720.chunk.js": "/event-tracker-03/static/js/453.73341720.chunk.js",
+    "static/media/logo.svg": "/event-tracker-03/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/event-tracker-03/index.html",
+    "main.0fb38476.css.map": "/event-tracker-03/static/css/main.0fb38476.css.map",
+    "main.f399fac6.js.map": "/event-tracker-03/static/js/main.f399fac6.js.map",
+    "453.73341720.chunk.js.map": "/event-tracker-03/static/js/453.73341720.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb38476.css",
+    "static/js/main.f399fac6.js"
+  ]
+}

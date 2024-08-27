@@ -1,8 +1,9 @@
-import React from "react";
 import InitialHeader from "../components/Header/Logo";
 import Home from "../components/Home/Home";
 
 import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { refreshUser } from "../redux/authOperations";
 
 const HomePage = () => {
   const dispatch = useDispatch();

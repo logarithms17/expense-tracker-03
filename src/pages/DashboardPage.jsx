@@ -1,9 +1,10 @@
-import React from "react";
 import Dashboard from "../components/Dashboard/Dashboard";
 import MainHeader from "../components/Header/MainHeader";
 
 import UseToggle from "../Hook/UseToggle";
 import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { refreshUser } from "../redux/authOperations";
 
 const DashboardPage = () => {
   const dispatch = useDispatch();

@@ -4,8 +4,18 @@ import AllExpenseTab from "../components/Tabs/AllExpenseTab";
 import AllIncomeTab from "../components/Tabs/AllIncomeTab";
 
 import UseToggle from "../Hook/UseToggle";
+import { useDispatch } from "react-redux";
 
 const AllExpensePage = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const token = localStorage.getItem("authToken");
+    if (token) {
+      dispatch(refreshUser());
+    }
+  }, [dispatch]);
+
   const location = useLocation();
   const pathname = location.pathname;
 
